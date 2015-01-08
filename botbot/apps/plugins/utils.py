@@ -12,7 +12,7 @@ def plugin_docs_as_html(plugin, channel):
     ctxt = Context({
         'nick': channel.chatbot.nick,
         'channel': channel,
-        'SITE': 'https://botbot.me',
+        'SITE': 'http://mo-3ac520081.mo.sap.corp:8080',
     })
     return markdown.markdown(urlize(tmpl.render(ctxt)))
 

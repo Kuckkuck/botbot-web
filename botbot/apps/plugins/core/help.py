@@ -4,7 +4,7 @@ from botbot_plugins.base import BasePlugin
 from botbot_plugins.decorators import listens_to_mentions
 
 
-SITE = "https://botbot.me"
+SITE = "http://mo-3ac520081.mo.sap.corp"
 
 
 class Plugin(BasePlugin):
@@ -43,4 +43,4 @@ class Plugin(BasePlugin):
 
 
 def get_help_url(channel):
-    return SITE + reverse_channel(channel, "help_bot")
+    return SITE + reverse_channel(channel, "help_bot"
